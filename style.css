@@ -241,7 +241,7 @@ nav ul li a:active {
 
 .about-section h1 {
   margin:30px;
-  margin-left:16rem;
+  margin-left:12rem;
    color:#003b66;
   text-decoration:underline;
   font-size:35px;
@@ -256,7 +256,7 @@ nav ul li a:active {
 
 .about-text {
   width:50%;
-  font-size:20px;
+  font-size:23px;
   text-align:center;
   line-height:1.6;
 
