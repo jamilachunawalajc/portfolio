@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Personal Portfolio
 
 This is my personal portfolio website, created to showcase my skills, projects, and progress in web development.
