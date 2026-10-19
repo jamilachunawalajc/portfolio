@@ -186,8 +186,17 @@ nav ul li a:active {
   .right-section{
     margin:40px;
   }
+
 }
 
+@media screen and (max-width:465px) {
+
+    .profile-image {
+    width:180px;
+    height:180px;
+  }
+  
+}
 
 
 .about-section {
