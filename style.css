@@ -146,7 +146,8 @@ nav ul li a:active {
 }
 
 .first-section-github:hover , 
-.view-projects:hover {
+.view-projects:hover ,
+.view-resume:hover {
   color:#eb8196;
   font-size:24px;
 
@@ -159,6 +160,20 @@ nav ul li a:active {
   font-weight: 900;
   font-style: normal;
 }
+
+.view-resume
+{
+ text-decoration: none;
+  border:3px solid #A83D50;
+  color:#cc4964;
+  border-radius:8px;
+  padding:3px 6px;
+  font-size:22px;
+  margin-left:20px;
+}
+
+
+
 
 @media screen and (max-width:768px){
   .first-section {
@@ -185,6 +200,10 @@ nav ul li a:active {
  
   .right-section{
     margin:40px;
+  }
+
+  .view-resume{
+    margin-left:0;
   }
 
 }
@@ -228,7 +247,7 @@ nav ul li a:active {
   color:#003b66;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .about-icon i {
         width: 30px;
     }
@@ -275,7 +294,7 @@ nav ul li a:active {
   margin-left:150px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
 
   .about-section{
     padding:20px;
@@ -413,7 +432,7 @@ nav ul li a:active {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .skill-container{
     padding:20px 1px 20px;
     overflow-x:auto;
@@ -655,6 +674,8 @@ nav ul li a:active {
   margin-top:26px;
   margin-right:16px;
   margin-bottom:20px;
+  gap:18px;
+  flex-wrap:wrap;
 }
 
 .contact-app a {
